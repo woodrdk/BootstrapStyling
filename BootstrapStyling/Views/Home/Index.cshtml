@@ -1,0 +1,64 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="container">
+        <div class="text-center">
+            <a class="btn btn-danger" href="~/home/index">Go Home</a>
+            <a class="btn btn-default" href="~/home/index">Go Home</a>
+            <a class="btn btn-primary" href="~/home/index">Go Home</a>
+
+            <hr />
+            @* Same link AS above using HTML helper *@
+
+            @Html.ActionLink("GO HOME!", "index", "Home", null, new { @class = "btn btn-danger btn-lg" })
+            @Html.ActionLink("GO HOME!", "index", "Home", null, new { @class = "btn btn-default btn-lg" })
+            @Html.ActionLink("GO HOME!", "index", "Home", null, new { @class = "btn btn-primary btn-lg" })
+            <hr />
+            <br /><br />
+        </div>
+        <div class="row">
+            <div class =" col-md-6 col-sm-6" id="left-content">
+                <h2>Bacon</h2>Bacon ipsum dolor amet chuck pig pork loin tongue, alcatra turducken short ribs prosciutto hamburger bacon jerky. Tongue pig turkey alcatra cow kielbasa meatloaf. Tenderloin pork loin strip steak, beef ribs ham hock boudin landjaeger turkey pork belly. Spare ribs shank tenderloin turkey pork chop strip steak beef buffalo prosciutto pork belly beef ribs.
+
+                Frankfurter landjaeger venison leberkas. Ribeye spare ribs ham hock swine. Jerky prosciutto brisket porchetta, rump pork sirloin chuck landjaeger hamburger swine kevin strip steak frankfurter. Sausage capicola ground round drumstick doner spare ribs ham tenderloin bacon pork chop venison prosciutto ribeye porchetta. Capicola short loin tail turducken meatloaf flank salami spare ribs prosciutto.
+
+                Buffalo porchetta alcatra capicola fatback. Capicola landjaeger meatloaf drumstick jowl venison salami ribeye porchetta turducken pig corned beef short loin jerky. Brisket tri-tip buffalo, tail pork sausage jowl leberkas boudin beef ribs. Cupim jowl prosciutto burgdoggen, leberkas sausage flank pork belly biltong. Alcatra chicken pastrami, pancetta biltong flank filet mignon short ribs meatloaf drumstick corned beef shank turducken sausage. Bresaola brisket chicken burgdoggen salami meatloaf, sirloin capicola chuck jerky venison corned beef kielbasa sausage filet mignon.
+
+                Bresaola bacon pork loin capicola short ribs andouille ham hock cow shank t-bone. Prosciutto beef ribs hamburger picanha, venison salami swine fatback sirloin cupim shoulder landjaeger. Tenderloin tri-tip pig alcatra. Pork loin kevin alcatra tail picanha venison bacon.
+            </div>
+              <br />  
+            <div class =" col-md-6 col-sm-6"  id="right-content">
+                <h2>BobRoss</h2>
+                You got your heavy coat out yet? It's getting colder. Anyone can paint. See there how easy that is. Here we're limited by the time we have. Let's have a little bit of fun today. You're meant to have fun in life.
+
+                Maybe there's a happy little waterfall happening over here. But we're not there yet, so we don't need to worry about it. I really recommend you use odorless thinner or your spouse is gonna run you right out into the yard and you'll be working by yourself.
+
+                There's nothing wrong with having a tree as a friend. Only think about one thing at a time. Don't get greedy. Now let's put some happy little clouds in here. Let's do it again then, what the heck. Anytime you learn something your time and energy are not wasted.
+
+                Son of a gun. You can do anything here - the only pre-requisite is that it makes you happy. See there, told you that would be easy. If there's two big trees invariably sooner or later there's gonna be a little tree. Trees live in your fan brush, but you have to scare them out.
+
+                Remember how free clouds are. They just lay around in the sky all day long. You can't have light without dark. You can't know happiness unless you've known sorrow. Just make little strokes like that. That's why I paint - because I can create the kind of world I want - and I can make this world as happy as I want it.
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>
